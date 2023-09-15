@@ -6,124 +6,122 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML & CSS Review</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&family=Wix+Madefor+Display:wght@800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
-
 </head>
-<body>
 
-<div class="bg-black">
-  <div class="wrapper">
-  <header>
-    <span class="name"> Scoopalicious</span>
-      <nav>
-   
-        <ul>
-          <li><a href="#flavours">Flavours</a></li>
-          <li><a href="#locations">Locations</a></li>
-          <li><a href="#shop-online">Shop online</a></li>
-        </ul>
-      </nav>
+<body>
+    
+  <header id="header">
+    <div class="wrapper">
+      <span id="company-name"> Scoopalicious</span>
+
+        <nav>
+          <ul>
+            <li><a href="#flavours">Flavours</a></li>
+            <li><a href="#locations">Locations</a></li>
+            <li><a href="#shop-online">Shop online</a></li>
+          </ul>
+        </nav>
+    </div>
   </header>
-</div>
-</div>
-<section class="hero">
+
+<main>
+
+<section id="hero-banner">
   <div class="wrapper">
     <h1>Scoopalicious</h1>
-    
   </div>
 </section>
   <!-- In this hero section you will use the provided ice-cream-cones.jpg as a background image behind the word Scoopalicious. This would be the only section you will want to give a height. -->
-  <img src="ice-cream-cones.jpg" alt=""> 
-  
-  
 
-
-<section class="welcome">
+<section id="intro">
   <div class="wrapper">
-  <h2>Welcome to Scoopalicious!</h2>
-
-  <p>Serving the finest vegan ice cream in town, we specialize in crafting dairy-free delights that will send your taste buds into overdrive. From the moment you step inside our cozy urban shop, you'll know you're in for a treat!</p>
+    <h2>Welcome to Scoopalicious!</h2>
+      <p>Serving the finest vegan ice cream in town, we specialize in crafting dairy-free delights that will send your taste buds into overdrive. From the moment you step inside our cozy urban shop, you'll know you're in for a treat!</p>
 </div>
-</section>
+  </section>
 
-<section id="flavours" class="favourites">
-  <div class="wrapper">
+<section id="fan-fav">
+<div class="wrapper">
+    <h2>Top 5 Fan Favourites</h2>
 
-  <h2>Top 5 Fan Favourites</h2>
+      <ol>
+        <li>
+          <h3>Choco-Obsession</h3>
+          <p>A rich, velvety dark chocolate ice cream made from a blend of organic cocoa and creamy coconut cream.</p>
+        </li>
 
-  <ul><li><h3>Choco-Obsession</h3>
-  
-  A rich, velvety dark chocolate ice cream made from a blend of organic cocoa and creamy coconut cream.</li>
+        <li>
+        <h3>Very Berry Blast</h3>
+          <p>A harmonious explosion of raspberry, blackberry, and blueberry swirls in a smooth almond base.</p>
+        </li>
+        
+        <li>
+        <h3>Cookie Crumble Craze</h3>
+          <p>Scrummy cookie crumbles meet the creaminess of cashew-based vanilla ice cream.</p>
+        </li>
+        
+        <li>
+        <h3>Peanut Butter Paradise</h3>
+          <p>Luscious peanut butter ribbons swirled throughout a silky oat milk ice cream.</p>
+        </li>
 
-
-
-  <li><h3>Very Berry Blast</h3>
-  
-  A harmonious explosion of raspberry, blackberry, and blueberry swirls in a smooth almond base.</li>
-
-
-
-  <li><h3>Cookie Crumble Craze</h3>
-  
-  Scrummy cookie crumbles meet the creaminess of cashew-based vanilla ice cream.</li>
-
-
-
-  <li><h3>Peanut Butter Paradise</h3>
-  
-  Luscious peanut butter ribbons swirled throughout a silky oat milk ice cream.</li>
-
-
-
-  <li><h3>Mango Tango Sorbet</h3>
-  
-  A zesty dance of mango and lime, perfect for a refreshing treat on a hot summer day.</li>
-</ul>
-
+        <li>
+        <h3>Mango Tango Sorbet</h3>
+          <p>A zesty dance of mango and lime, perfect for a refreshing treat on a hot summer day.</p>
+        </li>
+    </ol>
   </div>
 </section>
-<section class="team">
-  <div class="wrapper">
+
+<section id="team">
+  <div class= "wrapper">
   <h2>Meet Our Team</h2>
+    <p class="team-intro">We're passionate about ice cream, and our dedicated team of flavour wizards works diligently to create and perfect the most delectable vegan desserts.</p>
 
-  <p>We're passionate about ice cream, and our dedicated team of flavour wizards works diligently to create and perfect the most delectable vegan desserts.</p>
+    <div class="team-grid">
+      <article>
+        <img src="images/sophia-lee.jpg" alt="Image of Sophia Lee"> 
+          <h3>Sophia Lee</h3>
+            <p>Founder & Flavour Guru</p> 
+      </article>
 
-  
-  
-  <!-- Display the image: sophia-lee.jpg -->
-  <img src="sophia-lee.jpg" alt=""> 
-  <h4>Sophia Lee</h4>
-  <p>Founder & Flavour Guru</p>
+      <article>
+        <img src="images/henry-chen.jpg" alt="Image of Henry Chen"> 
+          <h3>Henry Chen</h3>
+            <p>Master Scooper</p>
+      </article>
 
+      <article>
+        <img src="images/olivia-parks.jpg" alt="Image of Olivia Parks"> 
+          <h3>Olivia Parks</h3>
+           <p>Vegan Dessert Chef</p>
+      </article>
 
-  <!-- Display the image: henry-chen.jpg -->
-  <img src="henry-chen.jpg" alt=""> 
-  <h4>Henry Chen</h4>
-  <p>Master Scooper</p>
-
-  
-  <!-- Display the image: olivia-parks.jpg -->
-  <img src="olivia-parks.jpg" alt=""> 
-  <h4>Olivia Parks</h4>
-  <p>Vegan Dessert Chef</p>
-
-  
-  <!-- Display the image: elijah-taylor.jpg -->
-  <img src="elijah-taylor.jpg" alt=""> 
-  <h4>Elijah Taylor</h4>
-  <p>Flavour Innovator</p>
-</div>
+      <article>
+        <img src="images/elijah-taylor.jpg" alt="Image of Elijah Taylor"> 
+          <h3>Elijah Taylor</h3>
+            <p>Flavour Innovator</p>
+      </article>
+    </div>
+  </div>
 </section>
-
+ 
+</main>
 
 <footer>
-
-    <p class="wrapper"><small>All rights reserved © 2023 Scoopalicious</small></p>
-
+  <div class="wrapper">
+    <small>All rights reserved © 2023 Scoopalicious</small>
+  </div>
 </footer>
-  
-
-
   
 </body>
 </html>
